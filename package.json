@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "koa": "^1.2.4",
+    "lodash": "^4.16.6",
+    "request": "^2.78.0",
+    "sharp": "^0.16.2",
+    "tmp": "^0.0.30"
+  },
+  "name": "resize-on-fly",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "git@github.com:minibikini/resize-on-fly.git",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node lib/"
+  },
+  "author": "Egor Kislitsyn <egor@kislitsyn.com>",
+  "license": "MIT"
+}
