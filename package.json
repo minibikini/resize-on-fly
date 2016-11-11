@@ -4,10 +4,20 @@
     "lodash": "^4.16.6",
     "request": "^2.78.0",
     "sharp": "^0.16.2",
-    "tmp": "^0.0.30"
+    "tmp": "^0.0.30",
+    "yargs": "^6.3.0"
   },
   "name": "resize-on-fly",
-  "version": "0.1.0",
+  "description": "Image resize web service",
+  "keywords": [
+    "image",
+    "resize",
+    "crop",
+    "service",
+    "app",
+    "application"
+  ],
+  "version": "0.2.0",
   "main": "lib/index.js",
   "repository": {
     "url": "git@github.com:minibikini/resize-on-fly.git",
@@ -16,6 +26,10 @@
   "scripts": {
     "start": "node lib/"
   },
+  "bin": "lib/index.js",
   "author": "Egor Kislitsyn <egor@kislitsyn.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^8.5.0"
+  }
 }
