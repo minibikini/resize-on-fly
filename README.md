@@ -7,9 +7,12 @@ Image resize web service
   2. Run `yarn`
 
 ### Run
-`yarn start`
+`yarn start` or `node lib/`
 
-### APIc Usage Examples
+### Env Vars
+ - `PORT` - HTTP port, `3000` by default
+
+### API Usage Examples
 ```
 http://HOST/square/200/http://foo.com/bar.jpg
 http://HOST/width/200/http://foo.com/bar.jpg
