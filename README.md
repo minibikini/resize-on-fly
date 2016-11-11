@@ -2,15 +2,21 @@
 
 Image resize web service
 
+### Requirements
+ - node.js >= v6
+
 ### Install
-  1. Clone the repo
-  2. Run `yarn`
+`npm -g install resize-on-fly`
 
-### Run
-`yarn start` or `node lib/`
+### Usage
+```
+Usage: resize-on-fly [options]
 
-### Env Vars
- - `PORT` - HTTP port, `3000` by default
+Options:
+  -p, --port     HTTP port number                      [number] [default: 3000]
+  -v, --version  Show version number                                  [boolean]
+  -h, --help     Show help                                            [boolean]
+```
 
 ### API Usage Examples
 ```
