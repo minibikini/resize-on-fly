@@ -18,7 +18,7 @@
     "app",
     "application"
   ],
-  "version": "0.2.2",
+  "version": "0.2.1",
   "main": "lib/index.js",
   "repository": {
     "url": "git@github.com:minibikini/resize-on-fly.git",
