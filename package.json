@@ -1,10 +1,11 @@
 {
   "dependencies": {
     "koa": "^1.2.4",
-    "lodash": "^4.16.6",
-    "request": "^2.78.0",
-    "sharp": "^0.16.2",
-    "tmp": "^0.0.30",
+    "lodash": "^4.17.4",
+    "request": "^2.81.0",
+    "sharp": "^0.17.3",
+    "standard": "^8.5.0",
+    "tmp": "^0.0.31",
     "yargs": "^6.3.0"
   },
   "name": "resize-on-fly",
